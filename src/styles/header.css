@@ -2,6 +2,7 @@
   position: sticky;
   top: 0;
   display: flex;
+  background-color: white;
   justify-content: space-evenly;
   border-bottom: 0.1px solid lightgray;
   padding-top: 10px;
@@ -14,12 +15,10 @@
   display: flex;
 }
 
-
 .header__left > img {
   object-fit: contain;
   height: 40px;
   margin-right: 10px;
-
 }
 
 .header__search {
@@ -40,5 +39,4 @@
 
 .header__right {
   display: flex;
-
 }
